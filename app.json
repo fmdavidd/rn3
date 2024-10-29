@@ -13,13 +13,20 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Esta app requiere acceso a Face ID"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "USE_FINGERPRINT",
+        "USE_BIOMETRIC"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "28f447f3-0233-43e7-a3a9-7b7f3efef86b"
+      }
+    },
+    "owner": "fmdavid",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/28f447f3-0233-43e7-a3a9-7b7f3efef86b"
     }
   }
 }
