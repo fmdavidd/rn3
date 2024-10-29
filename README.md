@@ -4,6 +4,7 @@
 ![image](https://github.com/user-attachments/assets/813d4f93-2e65-44a9-8625-ca53a45699d3)
 ![image](https://github.com/user-attachments/assets/4355af42-9578-4f6e-985d-654010480822)
 ![image](https://github.com/user-attachments/assets/a020e841-beac-4546-a471-489cb455e536)
+![image](https://github.com/user-attachments/assets/77267074-7938-4d8c-98da-c6592ec12b9d)
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
